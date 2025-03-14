@@ -537,14 +537,61 @@ async function authenticate() {
                       <a href="#" className="text-primary hover:underline flex items-center">
                         <ExternalLink className="mr-2 h-3 w-3" />
                         Developer Tea
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div className="rounded-lg border p-4">
-                  <h3 className="font-medium">Tools</h3>
-                  <ul className="mt-2 space-y-2">
-                    <li className="text-sm">
-                      <a href="#\
+                     </a>
+                   </li>
+                 </ul>
+               </div>
+               
+               <div className="rounded-lg border p-4">
+                 <h3 className="font-medium">Tools</h3>
+                 <ul className="mt-2 space-y-2">
+                   <li className="text-sm">
+                     <a href="#" className="text-primary hover:underline flex items-center">
+                       <ExternalLink className="mr-2 h-3 w-3" />
+                       Pomodoro Timer for Developers
+                     </a>
+                   </li>
+                   <li className="text-sm">
+                     <a href="#" className="text-primary hover:underline flex items-center">
+                       <ExternalLink className="mr-2 h-3 w-3" />
+                       WakaTime Productivity Tracker
+                     </a>
+                   </li>
+                   <li className="text-sm">
+                     <a href="#" className="text-primary hover:underline flex items-center">
+                       <ExternalLink className="mr-2 h-3 w-3" />
+                       GitHub Contribution Calendar
+                     </a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+           </CardContent>
+         </Card>
+       </TabsContent>
+     </Tabs>
+     
+     <div className="border-t pt-8">
+       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+         <div>
+           <h2 className="text-xl font-bold">Need more help?</h2>
+           <p className="text-muted-foreground">
+             Reach out to our support team or join our community forums
+           </p>
+         </div>
+         <div className="flex gap-4">
+           <Button variant="outline">
+             <MessageSquare className="mr-2 h-4 w-4" />
+             Community Forum
+           </Button>
+           <Button>
+             <Mail className="mr-2 h-4 w-4" />
+             Contact Support
+           </Button>
+         </div>
+       </div>
+     </div>
+   </div>
+ )
+}
 
