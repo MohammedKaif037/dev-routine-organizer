@@ -304,8 +304,6 @@ function getPayloadConfigFromPayload(config: ChartConfig, payload: unknown, key:
 
 export { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent, ChartStyle }
 
-import React from "react"
-
 export const Cell = () => <div />
 export const Legend = () => <div />
 export const Pie = () => <div />
